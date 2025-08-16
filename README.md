@@ -1,25 +1,26 @@
+# Create: Ponderful UI
+### 🚧 Development roadmap 🚧
 
-Installation information
-=======
+**Basic goals:**
+- [x] Test config that always opens through Create's config manager;
+- [ ] Goggle overlay colors config (background, top, bot colors) (SHOULD SYNC WITH SAME SETTING IN CREATE CONFIG);
+- [ ] Goggle overlay adjustment config (a button that opens the `/create overlay` adjustment screen);
+- [ ] Ponder activation progress colors config (early, late);
+- [ ] Ponder UI buttons outline colors config (pressed, hovered, stale, unavailable);
+- [ ] Ponder UI icons & texts colors config (different colors depending on type);
+- [ ] Config UI buttons outline colors config (almost same as in Ponder UI, probably);
+- [ ] Config UI icons & texts colors config (almost same as in Ponder UI as well, probably);
+- [ ] ...
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+**Additional goals:**
+- [ ] ARGB color picker, either for every color-related config, or mutual for all of them opening by pressing some button on the screen);
+- [ ] Ponder activation progress symbol config ("|" by default);
+- [ ] ...
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+---
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+```
+Minecraft version: 1.21.1
+Platform: NeoForge
+Create: required (>= 6.0.6)
+```
